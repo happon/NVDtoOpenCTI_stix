@@ -26,24 +26,12 @@ It provides comprehensive support for vulnerability enrichment, ensuring smooth 
 - Continues processing even if CISA/EPSS files are missing  
   CISA/EPSSファイルがなくても処理を継続します。
 
-## Requirements / 必要なパッケージ
-
-    Install all required packages:
-
-    pip install -r requirements.txt
-
-
 ## Usage / 使い方
 
-    Basic usage:
-
-        python convert\_nvd\_to\_opencti.py \<nvd\_json\_file>
-
-    Example:
-
-        python convert\_nvd\_to\_opencti.py nvdcve-1.1-modified.json
-
-
+- Basic usage:
+  - python convert_nvd_to_opencti.py <nvd_json_file>
+- Example:
+  - python convert_nvd_to_opencti.py nvdcve-1.1-modified.json
 
 ## Input files / 入力ファイル
 
@@ -54,7 +42,6 @@ It provides comprehensive support for vulnerability enrichment, ensuring smooth 
   - `epss_scores-current.csv.gz`
 
 ## Output file / 出力ファイル
-
 - `output_opencti_stix.json`
 
 ## License / ライセンス
