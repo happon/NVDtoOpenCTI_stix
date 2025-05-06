@@ -7,7 +7,7 @@ It provides comprehensive support for vulnerability enrichment, ensuring smooth 
 このPythonツールは、NVDのCVE JSONデータをOpenCTI用のSTIX 2.1形式に変換します。  
 脆弱性データの拡張処理を行い、OpenCTI環境へのシームレスな統合を支援します。
 
-## ✨ Features / 主な機能
+## Features / 主な機能
 
 - Supports CVSSv3; falls back to CVSSv2 when CVSSv3 is unavailable  
   CVSSv3に対応し、CVSSv3がない場合はCVSSv2にフォールバックします。
@@ -26,14 +26,14 @@ It provides comprehensive support for vulnerability enrichment, ensuring smooth 
 - Continues processing even if CISA/EPSS files are missing  
   CISA/EPSSファイルがなくても処理を継続します。
 
-## 📦 Requirements / 必要なパッケージ
+## Requirements / 必要なパッケージ
 
     Install all required packages:
 
     pip install -r requirements.txt
 
 
-## 🔧 Usage / 使い方
+## Usage / 使い方
 
     Basic usage:
 
@@ -45,7 +45,7 @@ It provides comprehensive support for vulnerability enrichment, ensuring smooth 
 
 
 
-## 📁 Input files / 入力ファイル
+## Input files / 入力ファイル
 
 - Main:
   - NVD JSON file (e.g., `nvdcve-1.1-modified.json`)
@@ -53,11 +53,11 @@ It provides comprehensive support for vulnerability enrichment, ensuring smooth 
   - `cisa_known_exploited_vulnerabilities.json`
   - `epss_scores-current.csv.gz`
 
-## 📤 Output file / 出力ファイル
+## Output file / 出力ファイル
 
 - `output_opencti_stix.json`
 
-## 🛡 License / ライセンス
+## License / ライセンス
 
 MIT License
 
